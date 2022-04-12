@@ -2,6 +2,15 @@
     background-color: #fcf2db;
 }
 
+@media screen and (max-400){
+    .buscador{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+}
+
 .boton{
     text-decoration: none;
     color: black;
