@@ -1,3 +1,21 @@
 .header{
     background-color: #fcf2db;
 }
+
+.boton{
+    text-decoration: none;
+    color: black;
+}
+.carta{
+    border: #7ce840 2px solid;
+}
+.carta1{
+    border: #ee6dd4 2px solid;
+}
+.carta2{
+    border: #a04feb 2px solid;
+}
+.botones{
+    border: black 2px solid;
+    box-shadow: 3px 3px grey;
+}

@@ -13,49 +13,8 @@
     <title>Home</title>
 </head>
 <body>
-    <!-- <div class="container">
-        <!-- header
-        <div class="row header w-100 position-fixed"> 
-          <img src="images/logo.png" alt="" class="col-1">
-          <nav class="navbar navbar-expand-lg navbar-light col-11">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="recetas.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">RECETAS</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="basicos.html">Básicos</a></li>
-                      <li><a class="dropdown-item" href="dulces.html">Dulces</a></li>
-                      <li><a class="dropdown-item" href="postres.html">Postres</a></li>
-                      <li><a href="pastas.html" class="dropdown-item">Pastas</a></li>
-                      <li><a href="vegetarianos.html" class="dropdown-item">Veggie</a></li>
-                      <li><a href="faciles.html" class="dropdown-item">Fáciles</a></li>
-                      <li><a href="pollo.html" class="dropdown-item">Pollo</a></li>
-                      <li><a href="quesos.html" class="dropdown-item">Quesos</a></li>
-                      <li><a href="carnes.html" class="dropdown-item">Carnes</a></li>
-                    </ul>
-                  </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="consejos.html">CONSEJOS&TRUCOS</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Ej.: Empanadas" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-        </div>
-        cierro header
-    </div> -->
     <div class="container">
+      <!-- HEADER -->
       <div class="row w-100 header">
         <div class="col-2">
           <img src="images/logo.png" alt="" class="w-50">
@@ -98,9 +57,12 @@
           </nav>
         </div>
       </div>
+      <!-- CIERRO HEADER -->
+
+      <!-- IZQUIERDA -->
       <div class="row">
         <div class="col-8">
-          <h1>RECETA DEL DÍA</h1>
+          <h1 class="mt-3 mb-3">RECETA DEL DÍA</h1>
           <div class="card" style="width: 18rem;">
             <img src="images/recetas/carnes/empanadas.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -118,9 +80,70 @@
             </div>
           </div>
         </div>
+        <!-- CIERRO IZQUIERDA -->
+        <!-- DERECHA -->
         <div class="col-4">
-          2 of 3
+          <div class="card mb-3 mt-3 carta" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body d-flex justify-content-center">
+                    <a href="quesos.html" class="boton">
+                      <h5 class="card-title">QUESOS</h5>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="images/categorias_fotos/quesos.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+              </div>
+          </div>
+
+          <div class="card mb-3 mt-3 carta1" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-8 d-flex align-items-center">
+                <div class="card-body d-flex justify-content-center">
+                  <a href="carnes.html" class="boton">
+                    <h5 class="card-title">CARNES</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="images/categorias_fotos/carnes.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3 mt-3 carta2" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-8 d-flex align-items-center">
+                <div class="card-body d-flex justify-content-center">
+                  <a href="basicos.html" class="boton">
+                    <h5 class="card-title">BÁSICOS</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="images/categorias_fotos/basicos.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-0">
+            <div class="btn-group-vertical col-5 m-1">
+              <a href="dulces.html" class="btn botones m-3 fs-4">Dulces</a>
+              <a href="postres.html" class="btn botones m-3 fs-4">Postres</a>
+              <a href="pastas.html" class="btn botones m-3 fs-4">Pastas</a>
+            </div>
+
+            <div class="btn-group-vertical col-5 m-1">
+              <a href="veggies.html" class="btn botones m-3 fs-4">Veggies</a>
+              <a href="faciles.html" class="btn botones m-3 fs-4">Fáciles</a>
+              <a href="pollo.html" class="btn botones m-3 fs-4">Pollo</a>
+            </div>
+          </div>
         </div>
+        <!-- CIERRO DERECHA -->
+        
       </div>
     </div>
 
