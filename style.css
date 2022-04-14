@@ -52,3 +52,15 @@
 .enviar:active{
     background-color: #407FC7;
 }
+
+.pictureContainer{
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+}
+.pictureContainer img{
+    transition: transform .4s ease-in-out;
+}
+.pictureContainer img:hover{
+    transform: translate3d(0px, -240px, 0px)
+}
