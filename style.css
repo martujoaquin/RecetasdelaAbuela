@@ -28,3 +28,10 @@
     border: black 2px solid;
     box-shadow: 3px 3px grey;
 }
+
+.titulo{
+    background-color: rgba(3,13,36,0.6);
+}
+.borde{
+    border: 1px black solid;
+}
