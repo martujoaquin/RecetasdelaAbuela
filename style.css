@@ -2,15 +2,23 @@
     background-color: #fcf2db;
 }
 
-@media screen and (max-400){
+@media screen and (max-width:575px){
     .buscador{
         display: none;
     }
     .logo{
         display: none;
     }
+    .left{
+        display: none;
+    }
 }
 
+@media screen and (min-width: 576px) and (max-width: 990px){
+    .left{
+        display: none;
+    }
+}
 .boton{
     text-decoration: none;
     color: black;
@@ -64,3 +72,4 @@
 .pictureContainer img:hover{
     transform: translate3d(0px, -240px, 0px)
 }
+
