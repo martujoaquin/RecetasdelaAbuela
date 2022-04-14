@@ -35,3 +35,20 @@
 .borde{
     border: 1px black solid;
 }
+.textarea{
+    resize: none;
+}
+.enviar{
+    color: #fff;
+    background-color: #5995DA;
+    border: none;
+    border-radius: 3px; 
+    padding: 2% 5%; 
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: #76AEED;
+}
+.enviar:active{
+    background-color: #407FC7;
+}
