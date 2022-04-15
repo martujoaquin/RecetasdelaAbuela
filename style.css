@@ -12,6 +12,9 @@
     .left{
         display: none;
     }
+    .carousel{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 990px){
