@@ -3,3 +3,12 @@
 .header{
     background-color: nth($colores,1);
 }
+
+@media screen and (max-width:575px){
+    .buscador{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+}

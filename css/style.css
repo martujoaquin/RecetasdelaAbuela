@@ -2,4 +2,14 @@
   background-color: #fcf2db;
 }
 
+@media screen and (max-width: 575px) {
+  .buscador {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
