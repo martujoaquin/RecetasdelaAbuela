@@ -1,0 +1,81 @@
+.header{
+    background-color: #fcf2db;
+}
+
+@media screen and (max-width:575px){
+    .buscador{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .carousel{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px){
+    .left{
+        display: none;
+    }
+}
+.boton{
+    text-decoration: none;
+    color: black;
+}
+.carta{
+    border: #7ce840 2px solid;
+}
+.carta1{
+    border: #ee6dd4 2px solid;
+}
+.carta2{
+    border: #a04feb 2px solid;
+}
+.botones{
+    border: black 2px solid;
+    box-shadow: 3px 3px grey;
+}
+
+.titulo{
+    background-color: rgba(3,13,36,0.6);
+}
+.borde{
+    border: 1px black solid;
+}
+.textarea{
+    resize: none;
+}
+.enviar{
+    color: #fff;
+    background-color: #5995DA;
+    border: none;
+    border-radius: 3px; 
+    padding: 2% 5%; 
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: #76AEED;
+}
+.enviar:active{
+    background-color: #407FC7;
+}
+
+.pictureContainer{
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+}
+.pictureContainer img{
+    transition: transform .4s ease-in-out;
+}
+.pictureContainer img:hover{
+    transform: translate3d(0px, -240px, 0px)
+}
+.titulocat{
+    background-color: rgba(255,255,255,0.5);
+    color: rgba(3,13,36);
+}
