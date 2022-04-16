@@ -1,0 +1,40 @@
+@import 'listas';
+
+@media screen and (max-width:575px){
+    .left{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px){
+    .left{
+        display: none;
+    }
+}
+
+.textarea{
+    resize: none;
+}
+.enviar{
+    color: nth($colores,12);
+    background-color: nth($colores,9);
+    border: none;
+    border-radius: 3px; 
+    padding: 2% 5%; 
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: nth($colores,10);
+}
+
+.pictureContainer{
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+}
+.pictureContainer img{
+    transition: transform .4s ease-in-out;
+}
+.pictureContainer img:hover{
+    transform: translate3d(0px, -240px, 0px)
+}
