@@ -60,9 +60,6 @@
 .enviar:hover{
     background-color: #76AEED;
 }
-.enviar:active{
-    background-color: #407FC7;
-}
 
 .pictureContainer{
     width: 240px;

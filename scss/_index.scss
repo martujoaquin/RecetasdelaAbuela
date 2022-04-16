@@ -1,0 +1,28 @@
+@import 'listas';
+
+@media screen and (max-width:575px){
+    .buscador{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+.boton{
+    text-decoration: none;
+    color: nth($colores,2);
+}
+.carta{
+    border: nth($colores,3) 2px solid;
+}
+.carta1{
+    border: nth($colores,4) 2px solid;
+}
+.carta2{
+    border: nth($colores,5) 2px solid;
+}
+.botones{
+    border: nth($colores,2) 2px solid;
+    box-shadow: 3px 3px nth($colores,6);
+}
