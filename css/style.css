@@ -30,7 +30,7 @@
 
 .botones {
   border: black 2px solid;
-  box-shadow: 3px 3px grey;
+  box-shadow: 3px 3px rgba(3, 13, 36, 0.6);
 }
 
 @media screen and (max-width: 575px) {
@@ -43,7 +43,13 @@
 }
 
 .borde {
-  border: 1px black solid;
+  border: black 1px solid;
+}
+
+.pictureContainer {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 575px) {
@@ -71,12 +77,6 @@
 
 .enviar:hover {
   background-color: #76AEED;
-}
-
-.pictureContainer {
-  width: 240px;
-  height: 240px;
-  overflow: hidden;
 }
 
 .pictureContainer img {

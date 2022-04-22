@@ -1,0 +1,15 @@
+@import '../base/listas';
+@import '../base/mixin';
+
+@media screen and (max-width:575px){
+    .carousel{
+        display: none;
+    } 
+}
+
+.titulo{
+    background-color: nth($colores,6);
+}
+.borde{
+    @include bordes (black, 1px, solid)
+}

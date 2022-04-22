@@ -1,4 +1,5 @@
-@import 'listas';
+@import '../base/listas';
+@import '../base/extends';
 
 @media screen and (max-width:575px){
     .left{
@@ -8,7 +9,7 @@
 
 @media screen and (min-width: 576px) and (max-width: 990px){
     .left{
-        display: none;
+       display: none;
     }
 }
 
@@ -16,21 +17,19 @@
     resize: none;
 }
 .enviar{
-    color: nth($colores,12);
-    background-color: nth($colores,9);
+    color: nth($colores,11);
+    background-color: nth($colores,8);
     border: none;
     border-radius: 3px; 
     padding: 2% 5%; 
     cursor: pointer;
 }
 .enviar:hover{
-    background-color: nth($colores,10);
+    background-color: nth($colores,9);
 }
 
 .pictureContainer{
-    width: 240px;
-    height: 240px;
-    overflow: hidden;
+    @extend %picture;
 }
 .pictureContainer img{
     transition: transform .4s ease-in-out;

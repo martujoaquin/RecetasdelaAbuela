@@ -1,0 +1,6 @@
+@import '../base/listas';
+
+.titulocat{
+    background-color: nth($colores,10);
+    color: nth($colores,7);
+}

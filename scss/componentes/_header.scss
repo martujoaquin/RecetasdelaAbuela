@@ -1,0 +1,6 @@
+@import '../base/mapas';
+
+.header{
+    background-color: map-get($map: $header, $key: bg-color);
+}
+
