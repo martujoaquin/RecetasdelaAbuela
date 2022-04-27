@@ -28,47 +28,44 @@
 <body>
     <div class="container">
         <!-- HEADER -->
-        <header class="row header">
-            <section class="col-lg-2 col-md-2 col-sm-1">
-                <img src="images/logo.png" alt="Logo recetas de la abuela" class="w-50 logo">
-            </section>
-            <section class="col-lg-10 col-md-10 col-sm-11">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="recetas.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">RECETAS</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="basicos.html">Básicos</a></li>
-                            <li><a class="dropdown-item" href="dulces.html">Dulces</a></li>
-                            <li><a class="dropdown-item" href="postres.html">Postres</a></li>
-                            <li><a href="pastas.html" class="dropdown-item">Pastas</a></li>
-                            <li><a href="vegetarianos.html" class="dropdown-item">Veggie</a></li>
-                            <li><a href="faciles.html" class="dropdown-item">Fáciles</a></li>
-                            <li><a href="pollo.html" class="dropdown-item">Pollo</a></li>
-                            <li><a href="quesos.html" class="dropdown-item">Quesos</a></li>
-                            <li><a href="carnes.html" class="dropdown-item">Carnes</a></li>
-                            </ul>
-                        </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="consejos.html">CONSEJOS&TRUCOS</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">CONTACTO</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex buscador">
-                        <input class="form-control me-2" type="search" placeholder="Ej.: Empanadas" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
-                    </div>
-                    </div>
-                </nav>
-            </section>
+        <header class="header navbar navbar-light navbar-expand-sm d-flex align-items-center">
+          <section>
+            <img src="images/logo.png" alt="Logo de Recetas de la abuela" class="w-50 logo">
+          </section>
+  
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section class="navbar-collapse collapse col-10 mx-auto" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item list_item">
+                      <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="recetas.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">RECETAS</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="basicos.html">Básicos</a></li>
+                        <li><a class="dropdown-item" href="dulces.html">Dulces</a></li>
+                        <li><a class="dropdown-item" href="postres.html">Postres</a></li>
+                        <li><a href="pastas.html" class="dropdown-item">Pastas</a></li>
+                        <li><a href="vegetarianos.html" class="dropdown-item">Veggie</a></li>
+                        <li><a href="faciles.html" class="dropdown-item">Fáciles</a></li>
+                        <li><a href="pollo.html" class="dropdown-item">Pollo</a></li>
+                        <li><a href="quesos.html" class="dropdown-item">Quesos</a></li>
+                        <li><a href="carnes.html" class="dropdown-item">Carnes</a></li>
+                      </ul>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="consejos.html">CONSEJOS&TRUCOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </section>
         </header>
         <!-- CIERRO HEADER -->
 
@@ -76,7 +73,7 @@
         <main id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <section class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/carruseles/basicos.jpg" class="d-block w-100 position-relative" alt="Foto carrusel de pizza">
+              <img src="/images/carruseles/basicos.jpg" class="d-block w-100 position-relative" alt="Foto carrusel de pizza">
               <div class="carousel-caption">
                 <h1 class="position-absolute top-70 start-50 translate-middle d-inline titulo p-3 pe-5 ps-5">RECETAS</h1>
               </div>
@@ -95,7 +92,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Básicos</h4>
                   </div>
-                  <img src="images/categorias_fotos/basicos.jpg" class="card-img-bottom borde" alt="Foto categoría básicos">
+                  <img src="/images/categorias_fotos/basicos.jpg" class="card-img-bottom borde" alt="Foto categoría básicos">
                 </div>
               </a>
             </nav>
@@ -105,7 +102,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Dulces</h4>
                   </div>
-                  <img src="images/categorias_fotos/dulces.jpg" class="card-img-bottom borde" alt="Foto categoría dulces">
+                  <img src="/images/categorias_fotos/dulces.jpg" class="card-img-bottom borde" alt="Foto categoría dulces">
                 </div>
               </a>
             </nav>
@@ -115,7 +112,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Postres</h4>
                   </div>
-                  <img src="images/categorias_fotos/postres.jpg" class="card-img-bottom borde" alt="Foto categoría postres">
+                  <img src="/images/categorias_fotos/postres.jpg" class="card-img-bottom borde" alt="Foto categoría postres">
                 </div>
               </a>
             </nav>
@@ -128,7 +125,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Pastas</h4>
                   </div>
-                  <img src="images/categorias_fotos/pasta.jpg" class="card-img-bottom borde" alt="Foto categoría Pasta">
+                  <img src="/images/categorias_fotos/pasta.jpg" class="card-img-bottom borde" alt="Foto categoría Pasta">
                 </div>
               </a>
             </nav>
@@ -138,7 +135,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Veggies</h4>
                   </div>
-                  <img src="images/categorias_fotos/vegetarianos.jpg" class="card-img-bottom borde" alt="Foto categoría Vegetarianos">
+                  <img src="/images/categorias_fotos/vegetarianos.jpg" class="card-img-bottom borde" alt="Foto categoría Vegetarianos">
                 </div>
               </a>
             </nav>
@@ -148,7 +145,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Fáciles</h4>
                   </div>
-                  <img src="images/categorias_fotos/faciles.jpg" class="card-img-bottom borde" alt="Foto categoría Fáciles">
+                  <img src="/images/categorias_fotos/faciles.jpg" class="card-img-bottom borde" alt="Foto categoría Fáciles">
                 </div>
               </a>
             </nav>
@@ -161,7 +158,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Pollo</h4>
                   </div>
-                  <img src="images/categorias_fotos/pollos.jpg" class="card-img-bottom borde" alt="Foto categoría pollos">
+                  <img src="/images/categorias_fotos/pollos.jpg" class="card-img-bottom borde" alt="Foto categoría pollos">
                 </div>
               </a>
             </nav>
@@ -171,7 +168,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Quesos</h4>
                   </div>
-                  <img src="images/categorias_fotos/quesos.jpg" class="card-img-bottom borde" alt="Foto categoría quesos">
+                  <img src="/images/categorias_fotos/quesos.jpg" class="card-img-bottom borde" alt="Foto categoría quesos">
                 </div>
               </a>
             </nav>
@@ -181,7 +178,7 @@
                   <div class="card-body">
                     <h4 class="card-title text-center p-0 m-0">Carnes</h4>
                   </div>
-                  <img src="images/categorias_fotos/carnes.jpg" class="card-img-bottom borde" alt="Foto categoría carnes">
+                  <img src="/images/categorias_fotos/carnes.jpg" class="card-img-bottom borde" alt="Foto categoría carnes">
                 </div>
               </a>
             </nav>
