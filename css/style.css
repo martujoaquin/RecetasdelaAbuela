@@ -3,9 +3,16 @@
   font-family: "Barlow Condensed", sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+}
 .header {
   background-color: #fcf2db;
   font-size: x-large;
+}
+
+.body{
+  padding-top: 9%;
 }
 
 /* @media screen and (max-width: 575px) {
@@ -30,7 +37,6 @@ header ul .list_item .boton_prueba {
   position: relative;
   z-index: 1;
 }
-
 
 .boton{
   text-decoration: none;

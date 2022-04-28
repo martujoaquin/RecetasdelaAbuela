@@ -29,7 +29,7 @@
 <body>
     <div class="container">
       <!-- HEADER -->
-      <header class="header navbar navbar-light navbar-expand-sm d-flex align-items-center">
+      <header class="header navbar navbar-light navbar-expand-sm d-flex align-items-center fixed-top">
         <section>
           <img src="images/logo.png" alt="Logo de Recetas de la abuela" class="w-50 logo">
         </section>
@@ -70,43 +70,45 @@
       </header>
       <!-- CIERRO HEADER -->
 
-      <main class="row">
+      <main class="row body">
          <!-- IZQUIERDA -->
-        <section class="col-lg-6 col-md-6 col-sm-12 align-items-center">
-          <h1 class="mt-3 mb-3">RECETA DEL DÍA</h1>
-          <div class="card" style="width: 18rem;">
-            <img src="images/recetas/carnes/empanadas.jpg" class="card-img-top" alt="Foto de empanadas de carne">
-            <div class="card-body">
-              <h5 class="card-title">Empanadas de carne</h5>
-              <h6>Ingredientes</h6>
-              <p class="card-text"><ol class="list-group list-group-numbered">
-                <li class="list-group-item">Carne picada, 1/2 kg</li>
-                <li class="list-group-item">Cebolla grande, 2</li>
-                <li class="list-group-item">Aceitunas, a gusto</li>
-                <li class="list-group-item">Huevo, a gusto</li>
-                <li class="list-group-item">Condimentos a gusto</li>
-                <li class="list-group-item">Caldo de verdura/ puré de tomate (opcional)</li>
-              </ol></p>
-              <a href="empanadas.html" class="btn btn-primary">Ver más</a>
+        <section class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+          <div>
+            <h1 class="mt-3 mb-3 text-center">RECETA DEL DÍA</h1>
+            <div class="card" style="width: 18rem;">
+              <img src="images/recetas/carnes/empanadas.jpg" class="card-img-top" alt="Foto de empanadas de carne">
+              <div class="card-body">
+                <h5 class="card-title">Empanadas de carne</h5>
+                <h6>Ingredientes</h6>
+                <p class="card-text"><ol class="list-group list-group-numbered">
+                  <li class="list-group-item">Carne picada, 1/2 kg</li>
+                  <li class="list-group-item">Cebolla grande, 2</li>
+                  <li class="list-group-item">Aceitunas, a gusto</li>
+                  <li class="list-group-item">Huevo, a gusto</li>
+                  <li class="list-group-item">Condimentos a gusto</li>
+                  <li class="list-group-item">Caldo de verdura/ puré de tomate (opcional)</li>
+                </ol></p>
+                <a href="empanadas.html" class="btn btn-primary">Ver más</a>
+              </div>
             </div>
           </div>
         </section>
         <!-- CIERRO IZQUIERDA -->
         <!-- DERECHA -->
-        <section class="col-lg-6 col-md-6 col-sm-12">
+        <section class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column">
           <div class="card mb-3 mt-3 carta" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-8 d-flex align-items-center">
-                  <div class="card-body d-flex justify-content-center">
-                    <a href="quesos.html" class="boton">
-                      <h5 class="card-title">QUESOS</h5>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <img src="images/categorias_fotos/quesos.jpg" class="img-fluid rounded-start" alt="Foto de la categoría quesos">
+            <div class="row g-0">
+              <div class="col-md-8 d-flex align-items-center">
+                <div class="card-body d-flex justify-content-center">
+                  <a href="quesos.html" class="boton">
+                    <h5 class="card-title">QUESOS</h5>
+                  </a>
                 </div>
               </div>
+              <div class="col-md-4">
+                <img src="images/categorias_fotos/quesos.jpg" class="img-fluid rounded-start" alt="Foto de la categoría quesos">
+              </div>
+            </div>
           </div>
 
           <div class="card mb-3 mt-3 carta1" style="max-width: 540px;">

@@ -23,13 +23,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>Básicos | Recetas de la Abuela</title>
+    <title>Scons | Recetas de la Abuela</title>
 </head>
 <body>
     <div class="container">
         <!-- HEADER -->
-        <header class="header navbar navbar-light navbar-expand-sm d-flex align-items-center fixed-top">
+        <header class="header navbar navbar-light navbar-expand-sm d-flex align-items-center">
           <section>
             <img src="images/logo.png" alt="Logo de Recetas de la abuela" class="w-50 logo">
           </section>
@@ -70,111 +69,98 @@
         </header>
         <!-- CIERRO HEADER -->
 
-        <!-- FOTO -->
-        <main id="carouselExampleSlidesOnly" class="carousel slide body" data-bs-ride="carousel">
-            <section class="carousel-inner">
-              <nav class="carousel-item active">
-                <img src="images/carruseles/basicos.jpg" class="d-block w-100 position-relative" alt="Logo carrusel pizza">
-                <div class="carousel-caption">
-                  <h1 class="position-absolute top-70 start-50 translate-middle d-inline titulocat p-3 pe-5 ps-5">BÁSICOS</h1>
-                </div>
-              </nav>
-            </section>
+        <!-- IMG -->
+        <section class="row">
+            <h3 class="text-center display-5">Scon de queso</h3>
+            <img src="images/recetas/queso/scon.jpg" class="w-25 img-fluid rounded mx-auto my-3 d-block" alt="Foto scons de queso">
+        </section>
+        
+        <!-- TABLA -->
+        <main class="row">
+            <table class="table table-bordered text-center my-3 w-50 mx-auto">
+                <thead>
+                  <tr>
+                    <th scope="col">Porciones</th>
+                    <th scope="col">Tiempo de preparación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>8 unidades</td>
+                    <td>Aprox. 30 minutos</td>
+                  </tr>
+                </tbody>
+            </table>
         </main>
-        <!-- CIERRO FOTO -->
+        <!-- CIERRO TABLA -->
 
-        <!-- GRID -->
-        <main class="container">
-            <section class="row">
-                <nav class="col">
-                    <a href="pancitos.html" class="boton">
-                        <div class="card border-0" style="width: 18rem;">
-                          <div class="card-body">
-                            <h4 class="card-title text-center p-0 m-0">Pancitos dulces</h4>
-                          </div>
-                          <img src="/images/recetas/basicos/pancitos.jpg" class="card-img-bottom borde" alt="Foto pancitos dulces">
-                        </div>
-                      </a>
-                </nav>
-                <nav class="col">
-                    <a href="arroz.html" class="boton">
-                        <div class="card border-0" style="width: 18rem;">
-                          <div class="card-body">
-                            <h4 class="card-title text-center p-0 m-0">Arroz</h4>
-                          </div>
-                          <img src="/images/recetas/basicos/arroz.jpg" class="card-img-bottom borde" alt="Foto arroz">
-                        </div>
-                      </a>
-                </nav>
+        <main class="row">
+            <!-- LISTA INGREDIENTES -->
+            <section class="col-lg-6 col-md-6 col-sm-12">
+                <h5 class="display-6">Ingredientes:</h5>
+                <ul class="list-group mb-2">
+                    <li class="list-group-item">Harina 0000, 280gr</li>
+                    <li class="list-group-item">Sal, 1/2 cucharadita</li>
+                    <li class="list-group-item">Polvo para hornear, 4 cucharaditas</li>
+                    <li class="list-group-item">Queso rallado, 4 cucharadas</li>
+                    <li class="list-group-item">Huevo, 1</li>
+                    <li class="list-group-item">Manteca, 80gr</li>
+                    <li class="list-group-item">Leche, 7 cucharadas soperas</li>
+                </ul>
             </section>
-            <section class="row mb-4">
-                <nav class="col">
-                    <a href="masadepizza.html" class="boton">
-                        <div class="card border-0" style="width: 18rem;">
-                          <div class="card-body">
-                            <h4 class="card-title text-center p-0 m-0">Masa de pizza</h4>
-                          </div>
-                          <img src="/images/recetas/basicos/pizza.jpg" class="card-img-bottom borde" alt="Foto pizza">
-                        </div>
-                      </a>
-                </nav>
-                <nav class="col">
-                    <a href="bizcochuelo.html" class="boton">
-                        <div class="card border-0" style="width: 18rem;">
-                          <div class="card-body">
-                            <h4 class="card-title text-center p-0 m-0">Bizcochuelo</h4>
-                          </div>
-                          <img src="/images/recetas/basicos/bizcochuelo.jpg" class="card-img-bottom borde" alt="Foto bizcochuelo">
-                        </div>
-                      </a>
-                </nav>
+            <!-- CIERRO LISTA -->
+
+            <!-- LISTA PROCEDIMIENTO -->
+            <section class="col-lg-6 col-md-6 col-sm-12">
+                <h5 class="display-6">Procedimiento:</h5>
+                <ol class="list-group list-group-numbered mb-2">
+                    <li class="list-group-item">Tamizar los ingredientes secos todos juntos, la harina, el polvo para hornear y la sal.</li>
+                    <li class="list-group-item">Agregar el queso rallado y la manteca fría, desmenuzándola con las manos o un tenedor.
+                    </li>
+                    <li class="list-group-item">Incorporar el huevo y la leche amasando ligeramente para unir la masa.
+                    </li>
+                    <li class="list-group-item">Estirar la masa en una superficie enharinada y cortar en cuadrados. Colocar los scones de queso sobre una fuente de horno previamente enmantecada y pintarlos con yema de huevo batida.
+                    </li>
+                    <li class="list-group-item">Cocinar en horno precalentado a 200°C durante 10/12 minutos aproximadamente o hasta que se doren. </li>
+                  </ol>
             </section>
+            <!-- CIERRO LISTA -->
         </main>
-        <!-- CIERRO GRID -->
-
 
         <!-- FOOTER -->
         <footer class="row w-100 header">
-          <nav class="navbar">
+            <nav class="navbar">
             <div class="container">
-              <div class="col-2">
+                <div class="col-2">
                 <img src="images/logo.png" alt="Logo recetas de la abuela" class="w-50">
-              </div>
-              <div class="col-2">
+                </div>
+                <div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/email.png" alt="Logo email" class="w-50">
+                    <img src="images/redes/email.png" alt="Logo Email" class="w-50">
                 </a>
-              </div>
-              <div class="col-2">
+                </div>
+                <div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/whatsapp.png" alt="Logo Whatsapp" class="w-50">
+                    <img src="images/redes/whatsapp.png" alt="Logo Whatsapp" class="w-50">
                 </a>
-              </div>
-              <div class="col-2">
+                </div><div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/facebook.png" alt="Logo Facebook" class="w-50">
+                    <img src="images/redes/facebook.png" alt="Logo Facebook" class="w-50">
                 </a>
-              </div>
-              <div class="col-2">
+                </div><div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/tiktok.png" alt="Logo Tiktok" class="w-50">
+                    <img src="images/redes/tiktok.png" alt="Logo Tiktok" class="w-50">
                 </a>
-              </div>
-              <div class="col-2">
+                </div><div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/instagram.png" alt="Logo Instagram" class="w-50">
+                    <img src="images/redes/instagram.png" alt="Logo Instagram" class="w-50">
                 </a>
-              </div>
+                </div>
             </div>
-          </nav>
+            </nav>
         </footer>
         <!-- CIERRO FOOTER -->
     </div>
-
-
-
-
-
 
 
 
