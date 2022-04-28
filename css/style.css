@@ -15,15 +15,19 @@ body{
   padding-top: 9%;
 }
 
-/* @media screen and (max-width: 575px) {
-  .buscador {
+@media (max-width: 1000px) {
+  .logo{
     display: none;
   }
+}
 
-  .logo {
-    display: none;
+
+@media screen and (max-width: 575px) {
+  .body{
+    padding-top: 18%;
   }
-} */
+}
+
 a{
   text-decoration: none;
   color: black;
