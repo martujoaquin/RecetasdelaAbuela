@@ -42,6 +42,15 @@ body{
   .navbar-toggler{
     background-color: white;
   }
+  .imgreceta{
+    width: 50%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .imgreceta{
+    width: 25%;
+  }
+  
 }
 
 a{
