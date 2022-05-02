@@ -23,13 +23,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>Dulces | Recetas de la Abuela</title>
+    <title>Salsa para fideos | Recetas de la Abuela</title>
 </head>
 <body>
     <div class="container">
         <!-- HEADER -->
-        <header class="header navbar navbar-light navbar-expand-sm d-flex align-items-center" id="header">
+        <header class="header navbar navbar-light navbar-expand-sm d-flex align-items-center fixed-top" id="header">
           <section>
             <img src="images/logo.png" alt="Logo de Recetas de la abuela" class="w-50 logo">
           </section>
@@ -70,112 +69,89 @@
         </header>
         <!-- CIERRO HEADER -->
 
-        <!-- FOTO -->
-        <main id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <section class="carousel-inner">
-              <nav class="carousel-item active">
-                <img src="/images/carruseles/dulces.jpg" class="d-block w-100 position-relative" alt="foto carrusel budín">
-                <div class="carousel-caption">
-                  <h1 class="position-absolute top-70 start-50 translate-middle d-inline titulocat p-3 pe-5 ps-5 display-5">DULCES</h1>
-                </div>
-              </nav>
-            </section>
+        <!-- IMG -->
+        <section class="row body">
+            <h3 class="text-center display-5">Salsa para fideos</h3>
+            <img src="images/recetas/pastas/fideos.jpg" class="imgreceta img-fluid rounded mx-auto my-3 d-block" alt="Foto fideos con salsa">
+        </section>
+        
+        <!-- TABLA -->
+        <main class="row">
+            <table class="table table-bordered text-center my-3 w-50 mx-auto">
+                <thead>
+                  <tr>
+                    <th scope="col">Porciones</th>
+                    <th scope="col">Tiempo de preparación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4 platos</td>
+                    <td>Aprox. 15 minutos</td>
+                  </tr>
+                </tbody>
+            </table>
         </main>
-        <h1 class="titulocategoria text-center mt-3 display-1">DULCES</h1>
-        <!-- CIERRO FOTO -->
+        <!-- CIERRO TABLA -->
 
-        <!-- GRID -->
-        <main class="container">
-            <section class="row">
-                <nav class="col">
-                    <a href="tortanaranja.html" class="boton">
-                        <div class="card border-0" style="width: 18rem;">
-                          <div class="card-body">
-                            <h4 class="card-title text-center p-0 m-0">Torta de naranja</h4>
-                          </div>
-                          <img src="/images/recetas/dulces/torta-naranja.jpg" class="card-img-bottom borde" alt="Foto torta de naranja">
-                        </div>
-                      </a>
-                </nav>
-                <nav class="col">
-                    <a href="masas.html" class="boton">
-                        <div class="card border-0" style="width: 18rem;">
-                          <div class="card-body">
-                            <h4 class="card-title text-center p-0 m-0">Masitas de chocolate</h4>
-                          </div>
-                          <img src="/images/recetas/dulces/masitas-choco.jpg" class="card-img-bottom borde" alt="Foto masitas de chocolate">
-                        </div>
-                      </a>
-                </nav>
+        <main class="row">
+            <!-- LISTA INGREDIENTES -->
+            <section class="col-lg-6 col-md-6 col-sm-12">
+                <h5 class="display-6">Ingredientes:</h5>
+                <ul class="list-group mb-2">
+                    <li class="list-group-item mx-0">Cebolla, 1</li>
+                    <li class="list-group-item mx-0">Salsa de tomate, 1 taza</li>
+                    <li class="list-group-item mx-0">Huevo duro, 1</li>
+                    <li class="list-group-item mx-0">Queso crema, 200gr</li>
+                </ul>
             </section>
-            <section class="row mb-4">
-                <nav class="col">
-                    <a href="budindelimon.html" class="boton">
-                        <div class="card border-0" style="width: 18rem;">
-                          <div class="card-body">
-                            <h4 class="card-title text-center p-0 m-0">Budín de limón</h4>
-                          </div>
-                          <img src="/images/recetas/dulces/budin-de-limon.jpg" class="card-img-bottom borde" alt="Foto budín de limón">
-                        </div>
-                      </a>
-                </nav>
-                <nav class="col">
-                    <a href="pionono.html" class="boton">
-                        <div class="card border-0" style="width: 18rem;">
-                          <div class="card-body">
-                            <h4 class="card-title text-center p-0 m-0">Pionono para rellenar</h4>
-                          </div>
-                          <img src="/images/recetas/dulces/pionono.jpg" class="card-img-bottom borde" alt="Foto pionono">
-                        </div>
-                      </a>
-                </nav>
+            <!-- CIERRO LISTA -->
+
+            <!-- LISTA PROCEDIMIENTO -->
+            <section class="col-lg-6 col-md-6 col-sm-12">
+                <h5 class="display-6">Procedimiento:</h5>
+                <ol class="list-group list-group-numbered mb-2">
+                    <li class="list-group-item mx-0">Picar y rehogar en un poco de aceite la cebolla. Añadir una taza de salsa de tomate, el huevo duro picado, el queso crema y condimentar a gusto.</li>
+                    <li class="list-group-item mx-0">Servir caliente sobre tallarines cocinados.</li>
+                  </ol>
             </section>
+            <!-- CIERRO LISTA -->
         </main>
-        <!-- CIERRO GRID -->
-
 
         <!-- FOOTER -->
         <footer class="row w-100 header">
-          <nav class="navbar">
+            <nav class="navbar">
             <div class="container">
-              <div class="col-2">
+                <div class="col-2">
                 <img src="images/logo.png" alt="Logo recetas de la abuela" class="w-50">
-              </div>
-              <div class="col-2">
+                </div>
+                <div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/email.png" alt="Logo email" class="w-50">
+                    <img src="images/redes/email.png" alt="Logo Email" class="w-50">
                 </a>
-              </div>
-              <div class="col-2">
+                </div>
+                <div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/whatsapp.png" alt="Logo Whatsapp" class="w-50">
+                    <img src="images/redes/whatsapp.png" alt="Logo Whatsapp" class="w-50">
                 </a>
-              </div>
-              <div class="col-2">
+                </div><div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/facebook.png" alt="Logo Facebook" class="w-50">
+                    <img src="images/redes/facebook.png" alt="Logo Facebook" class="w-50">
                 </a>
-              </div>
-              <div class="col-2">
+                </div><div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/tiktok.png" alt="Logo Tiktok" class="w-50">
+                    <img src="images/redes/tiktok.png" alt="Logo Tiktok" class="w-50">
                 </a>
-              </div>
-              <div class="col-2">
+                </div><div class="col-2">
                 <a class="navbar-brand" href="#">
-                  <img src="images/redes/instagram.png" alt="Logo Instagram" class="w-50">
+                    <img src="images/redes/instagram.png" alt="Logo Instagram" class="w-50">
                 </a>
-              </div>
+                </div>
             </div>
-          </nav>
+            </nav>
         </footer>
         <!-- CIERRO FOOTER -->
     </div>
-
-
-
-
-
 
 
 
