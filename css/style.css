@@ -5,6 +5,14 @@
   overflow-x: none;
 }
 
+.top{
+  background-color: rgb(235, 235, 0);
+  font-weight: bold;
+}
+.top:hover{
+  background-color: rgb(189, 189, 147);
+}
+
 body{
   overflow-x: hidden;
 }
@@ -30,6 +38,7 @@ body{
   }
   #header{
     background-color: transparent;
+    position: relative;
   }
   .navbar-nav{
     background-color: rgba(255,255,255,0.9);
@@ -51,6 +60,9 @@ body{
     width: 25%;
   }
   .titulocategoria{
+    display: none;
+  }
+  .backto{
     display: none;
   }
 }
