@@ -25,12 +25,11 @@ body{
   padding-top: 9%;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .logo{
     display: none;
   }
 }
-
 
 @media screen and (max-width: 575px) {
   .body{
@@ -38,6 +37,7 @@ body{
   }
   #header{
     background-color: transparent;
+    position: relative;
   }
   .navbar-nav{
     background-color: rgba(255,255,255,0.9);
@@ -125,6 +125,11 @@ header ul .list_item .boton_prueba {
 }
 @media screen and (min-width: 576px) and (max-width: 990px) {
   .left {
+    display: none;
+  }
+}
+@media screen and (min-width: 990px){
+  #footercontacto{
     display: none;
   }
 }
