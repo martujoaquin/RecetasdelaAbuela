@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
 * {
   font-family: "Barlow Condensed", sans-serif;
-  margin: 0 auto;
-  overflow-x: hidden!important;
+  margin: 0 auto;  
 }
 
 .top{
@@ -13,9 +12,6 @@
   background-color: rgb(189, 189, 147);
 }
 
-body{
-  overflow-x: hidden!important;
-}
 .header {
   background-color: #fcf2db;
   font-size: x-large;
@@ -23,6 +19,10 @@ body{
 
 .body{
   padding-top: 9%;
+}
+
+body{
+  overflow-x: hidden!important;
 }
 
 @media screen and (max-width: 1000px) {
