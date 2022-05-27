@@ -2,7 +2,7 @@
 * {
   font-family: "Barlow Condensed", sans-serif;
   margin: 0 auto;
-  overflow-x: none;
+  overflow-x: hidden!important;
 }
 
 .top{
@@ -14,7 +14,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 }
 .header {
   background-color: #fcf2db;
